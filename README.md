@@ -21,9 +21,10 @@ Contains all routing
 
 ## Installation
 
-1. Download file and unzip
-2. Using a terminal navigate to project and run "npm install" to install all dependencies
-3. In the terminal type "npm start" for the project to run
+1. Ensure your computer has NodeJs and NPM
+2. Download file and unzip
+3. Using a terminal navigate to project and run "npm install" to install all dependencies
+4. In the terminal type "npm start" for the project to run
 
 ## Credits:
 
