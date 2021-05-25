@@ -2,7 +2,7 @@
 
 ## Description:
 
-This is static website which was built for my cousin who owns a welding shop and was looking to create a digital footprint. This website was built using React, Reactstrap, and Bootsrap 4
+This is mobile friendly static website which was built for my cousin who owns a welding shop and was looking to create a digital footprint. This website was built using React, Reactstrap, and Bootsrap 4
 
 ## Contents
 
