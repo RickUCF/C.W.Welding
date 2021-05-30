@@ -38,10 +38,7 @@ function AboutPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="10">
                 <h2 className="title">Who are we?</h2>
-                <p
-                  className="shadow-sm p-3 mb-5 bg-white rounded description"
-                  style={{ marginBottom: "0px" }}
-                >
+                <p className="shadow-sm bg-white rounded description" style={{ marginBottom: "0px" }}>
                   We are a family-owned business whose roots are in the heart of Milwaukee. It all began when
                   Gabriel Vargas was inspired to open his own shop after countless years of welding
                   experience. He instinctively knew that Milwaukee, which is where his family and friends
@@ -66,7 +63,7 @@ function AboutPage() {
                 </p>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="10">
-                <p className="shadow-sm p-3 mb-5 bg-white rounded description">
+                <p className="shadow-sm bg-white rounded description">
                   Gabriel Vargas’s pride and joy are his two kids. He enjoys taking his daughter and son
                   horseback riding and to horse racing events. When Gabriel is not with his kids, he enjoys
                   deer hunting and riding motorbikes up north. Most importantly he enjoys cooking out along

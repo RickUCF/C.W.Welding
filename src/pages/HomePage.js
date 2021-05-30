@@ -45,7 +45,7 @@ function HomePage() {
             </Row>
             <div className="separator separator-primary"></div>
             <div className="section-story-overview">
-              <Row>
+              <Row className="flex-column flex-lg-row">
                 <Col md="6">
                   <div
                     className="image-container"
@@ -55,9 +55,10 @@ function HomePage() {
                 <Col md="5">
                   <h2 className="text-center">Services</h2>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Steel Welding</li>
-                    <li class="list-group-item">Stainless Steel Welding</li>
+                    <li class="list-group-item">Steel & Stainless Steel Welding</li>
                     <li class="list-group-item">Aluminum Welding</li>
+                    <li class="list-group-item">Structural Welding</li>
+                    <li class="list-group-item">Heavy Machinery</li>
                     <li class="list-group-item">Casting</li>
                     <li class="list-group-item">Fabrication & Custom Work</li>
                   </ul>
@@ -70,8 +71,8 @@ function HomePage() {
               </Row>
             </div>
             <div className="separator separator-primary"></div>
-            <div className="section-story-overview">
-              <Row>
+            <div className="section-story-overview" style={{ padding: "0px" }}>
+              <Row className="flex-column-reverse flex-lg-row">
                 <Col md="5">
                   <h2 className="text-center">Past Works</h2>
                   <ul class="list-group list-group-flush">
