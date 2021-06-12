@@ -3,13 +3,13 @@ import { Container, Row, Col } from "reactstrap";
 
 /* Import images used */
 import homeImage from "../assets/img/cerebro_4.jpg";
-import homeImage2 from "../assets/img/cerebro_3.jpg";
 import headerImage from "../assets/img/cerebro_2.jpg";
 
 /* Import core components */
 import NavigationBar from "../components/NavigationBar.js";
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
+import Carousel from "../components/Carousel.js";
 
 function HomePage() {
   /*
@@ -88,16 +88,14 @@ function HomePage() {
                     <li class="list-group-item">Mining Equipment</li>
                   </ul>
                 </Col>
-                <Col md="6">
-                  <div
-                    className="image-container"
-                    style={{ backgroundImage: `url(${homeImage2})`, backgroundSize: "cover" }}
-                  ></div>
+                <Col md="6" style={{ marginBottom: "30px" }}>
+                  <Carousel />
                 </Col>
               </Row>
             </div>
           </Container>
         </div>
+
         <Footer />
       </div>
     </>
