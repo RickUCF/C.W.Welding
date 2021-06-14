@@ -43,14 +43,20 @@ function HomePage() {
                 </p>
               </Col>
             </Row>
-            <div className="separator separator-primary"></div>
+
             <div className="section-story-overview">
               <Row className="flex-column flex-lg-row">
-                <Col md="6">
-                  <div
-                    className="image-container"
-                    style={{ backgroundImage: `url(${homeImage})`, backgroundSize: "cover" }}
-                  ></div>
+                <Col md="6" style={{ marginBottom: "30px" }}>
+                  <img
+                    src={homeImage}
+                    alt="Welding"
+                    style={{
+                      boxShadow: "0px 10px 25px 0px rgba(0, 0, 0, 0.3)",
+                      borderRadius: "0.1875rem",
+                      maxHeight: "600px",
+                      width: "100%",
+                    }}
+                  />
                 </Col>
                 <Col md="5">
                   <h2 className="text-center">Services</h2>
@@ -70,7 +76,7 @@ function HomePage() {
                 </Col>
               </Row>
             </div>
-            <div className="separator separator-primary"></div>
+
             <div className="section-story-overview" style={{ padding: "0px" }}>
               <Row className="flex-column-reverse flex-lg-row">
                 <Col md="5">
@@ -88,7 +94,7 @@ function HomePage() {
                     <li class="list-group-item">Mining Equipment</li>
                   </ul>
                 </Col>
-                <Col md="6" style={{ marginBottom: "30px" }}>
+                <Col md="6" style={{ marginBottom: "30px", paddingRight: "0px", paddingLeft: "0px" }}>
                   <Carousel />
                 </Col>
               </Row>

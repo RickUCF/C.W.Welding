@@ -76,18 +76,29 @@ function AboutPage() {
         <div className="section-story-overview">
           <Container>
             <Row>
-              <Col md="7">
-                <div
-                  className="image-container"
-                  style={{ backgroundImage: `url(${cerebroAbout})`, backgroundSize: "cover" }}
-                ></div>
-                <h3>Gabriel Hunting</h3>
+              <Col md="6" style={{ paddingBottom: "30px" }}>
+                <img
+                  src={cerebroAbout}
+                  alt="Cerebro Hunting"
+                  style={{
+                    boxShadow: "0px 10px 25px 0px rgba(0, 0, 0, 0.3)",
+                    borderRadius: "0.1875rem",
+                    maxHeight: "600px",
+                    width: "100%",
+                  }}
+                />
               </Col>
-              <Col md="5">
-                <div
-                  className="image-container image-right"
-                  style={{ backgroundImage: `url(${cerebroAbout2})`, backgroundSize: "cover" }}
-                ></div>
+              <Col md="6">
+                <img
+                  src={cerebroAbout2}
+                  alt="Cerebro Standing next to Minining Equipment"
+                  style={{
+                    boxShadow: "0px 10px 25px 0px rgba(0, 0, 0, 0.3)",
+                    borderRadius: "0.1875rem",
+                    maxHeight: "600px",
+                    width: "100%",
+                  }}
+                />
               </Col>
             </Row>
           </Container>
