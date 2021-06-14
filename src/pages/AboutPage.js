@@ -83,7 +83,7 @@ function AboutPage() {
                   style={{
                     boxShadow: "0px 10px 25px 0px rgba(0, 0, 0, 0.3)",
                     borderRadius: "0.1875rem",
-                    maxHeight: "600px",
+                    maxHeight: "650px",
                     width: "100%",
                   }}
                 />
@@ -95,7 +95,7 @@ function AboutPage() {
                   style={{
                     boxShadow: "0px 10px 25px 0px rgba(0, 0, 0, 0.3)",
                     borderRadius: "0.1875rem",
-                    maxHeight: "600px",
+                    maxHeight: "650px",
                     width: "100%",
                   }}
                 />
