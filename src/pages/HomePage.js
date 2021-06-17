@@ -37,10 +37,10 @@ function HomePage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="9">
                 <h2 className="title">Milwaukee's best Welding</h2>
-                <p className="description">
+                <h5 className="description">
                   We are here to service all your welding needs in Milwaukee county and surrounding areas. All
                   customers are welcomed, from individuals to businesses.
-                </p>
+                </h5>
               </Col>
             </Row>
 
@@ -61,7 +61,8 @@ function HomePage() {
                 <Col md="5">
                   <h2 className="text-center">Services</h2>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Steel & Stainless Steel Welding</li>
+                    <li class="list-group-item">Steel Welding</li>
+                    <li class="list-group-item">Stainless Steel Welding</li>
                     <li class="list-group-item">Aluminum Welding</li>
                     <li class="list-group-item">Structural Welding</li>
                     <li class="list-group-item">Heavy Machinery</li>
