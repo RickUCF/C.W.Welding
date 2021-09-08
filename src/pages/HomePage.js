@@ -60,14 +60,14 @@ function HomePage() {
                 </Col>
                 <Col md="5">
                   <h2 className="text-center">Services</h2>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Steel Welding</li>
-                    <li class="list-group-item">Stainless Steel Welding</li>
-                    <li class="list-group-item">Aluminum Welding</li>
-                    <li class="list-group-item">Structural Welding</li>
-                    <li class="list-group-item">Heavy Machinery</li>
-                    <li class="list-group-item">Casting</li>
-                    <li class="list-group-item">Fabrication & Custom Work</li>
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item">Steel Welding</li>
+                    <li className="list-group-item">Stainless Steel Welding</li>
+                    <li className="list-group-item">Aluminum Welding</li>
+                    <li className="list-group-item">Structural Welding</li>
+                    <li className="list-group-item">Heavy Machinery</li>
+                    <li className="list-group-item">Casting</li>
+                    <li className="list-group-item">Fabrication & Custom Work</li>
                   </ul>
                   <p className="text-center" style={{ paddingTop: "30px" }}>
                     We are a family-owned business which focuses on delivering the best service possible. Our
@@ -82,17 +82,17 @@ function HomePage() {
               <Row className="flex-column-reverse flex-lg-row">
                 <Col md="5">
                   <h2 className="text-center">Past Works</h2>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Smokers / Grills</li>
-                    <li class="list-group-item">Fences</li>
-                    <li class="list-group-item">Gates</li>
-                    <li class="list-group-item">Awnings</li>
-                    <li class="list-group-item">Hitches</li>
-                    <li class="list-group-item">Vehicles</li>
-                    <li class="list-group-item">Trailers</li>
-                    <li class="list-group-item">Boats</li>
-                    <li class="list-group-item">Snow Plows</li>
-                    <li class="list-group-item">Mining Equipment</li>
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item">Smokers / Grills</li>
+                    <li className="list-group-item">Fences</li>
+                    <li className="list-group-item">Gates</li>
+                    <li className="list-group-item">Awnings</li>
+                    <li className="list-group-item">Hitches</li>
+                    <li className="list-group-item">Vehicles</li>
+                    <li className="list-group-item">Trailers</li>
+                    <li className="list-group-item">Boats</li>
+                    <li className="list-group-item">Snow Plows</li>
+                    <li className="list-group-item">Mining Equipment</li>
                   </ul>
                 </Col>
                 <Col md="6" style={{ marginBottom: "30px", paddingRight: "0px", paddingLeft: "0px" }}>
