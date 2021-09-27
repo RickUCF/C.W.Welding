@@ -56,7 +56,7 @@ function AboutPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="7">
                 <img alt="Gabriel Vargas" className="rounded-circle img-raised" src={headShot}></img>
-                <p className="category text-info" style={{ paddingTop: "30px", paddingBottom: "20px" }}>
+                <p className="category" style={{ paddingTop: "30px", paddingBottom: "20px" }}>
                   Lead Welder
                 </p>
               </Col>

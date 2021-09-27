@@ -39,7 +39,7 @@ function ContactPage() {
                   <h2 className="title" style={{ paddingTop: "15px" }}>
                     Phone
                   </h2>
-                  <p className="category text-info">414-758-6158</p>
+                  <p className="category">414-758-6158</p>
                 </a>
               </Col>
               <Col>
@@ -48,7 +48,7 @@ function ContactPage() {
                   <h2 className="title" style={{ paddingTop: "15px" }}>
                     Email
                   </h2>
-                  <p className="category text-info">cwelding88@gmail.com</p>
+                  <p className="category">cwelding88@gmail.com</p>
                 </a>
               </Col>
               <Col>
@@ -57,7 +57,7 @@ function ContactPage() {
                   <h2 className="title" style={{ paddingTop: "15px" }}>
                     Address
                   </h2>
-                  <p className="category text-info">3801 W. Mckinley Ave. Milwaukee, WI 53216</p>
+                  <p className="category">3801 W. Mckinley Ave. Milwaukee, WI 53216</p>
                 </a>
               </Col>
             </Row>
