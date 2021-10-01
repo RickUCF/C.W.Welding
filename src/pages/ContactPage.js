@@ -11,16 +11,15 @@ import headerImage from "../assets/img/cerebro_8.jpg";
 
 function ContactPage() {
   /*
-    Displays sidebar navigation when necesary 
+    Displays sidebar navigation when necesary
+    "remove nav-open" closes side bar when link is clicked
   */
   React.useEffect(() => {
-    document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;
     return function cleanup() {
-      document.body.classList.remove("landing-page");
       document.body.classList.remove("sidebar-collapse");
     };
   }, []);
